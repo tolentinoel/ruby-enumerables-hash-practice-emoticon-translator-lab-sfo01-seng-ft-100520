@@ -9,7 +9,9 @@ def load_library(path)
   
   hash = file_path.each_with_object({}) do |(key, value), answer|
     answer[key] = value
-    value = 
+    answer[key] = {
+      
+    }
     end
   hash
 binding.pry
