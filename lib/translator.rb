@@ -13,9 +13,9 @@ def load_library(file_path)
       :english => value[0]
       :japanse => value[1]
     }
-binding.pry
 end
   final
+binding.pry
 end
 
 
