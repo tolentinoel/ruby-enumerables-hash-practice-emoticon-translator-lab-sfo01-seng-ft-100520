@@ -9,7 +9,7 @@ def load_library(file_path)
 
   final.each_with_object({}) do |(key, value), emotion|
      value.each do |english, japanese|
-      emotion[english][key].push(in_key
+      emotion[english][key] = {}
  
 end
 binding.pry
