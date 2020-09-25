@@ -1,9 +1,9 @@
 # require modules here
 require 'yaml'
 require 'pry'
+path = YAML::load(path.to_yaml)
 
 def load_library(path)
-  emoji = YAML::load(path.to_yaml)
   final = path.each_with_object({}) do |(key, value), answer|
     
  
