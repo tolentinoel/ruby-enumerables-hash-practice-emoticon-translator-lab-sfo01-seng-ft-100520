@@ -9,7 +9,7 @@ def load_library(path)
   
   final_answer = file_path.each_with_object({}) do |(key, value), answer|
     answer[key] = value
-      value.each do | k, v |
+      # value.each do | k, v |
         # puts value[k] 
     end
     end
