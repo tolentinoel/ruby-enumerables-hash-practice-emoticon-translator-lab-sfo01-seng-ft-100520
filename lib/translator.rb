@@ -13,6 +13,7 @@ def load_library(path)
       icons_set[v][0]
     end
     end
+    end
   final_answer
 binding.pry
 end
