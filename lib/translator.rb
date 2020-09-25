@@ -10,7 +10,7 @@ def load_library(path)
   final_answer = file_path.each_with_object({}) do |(key, value), answer|
     answer[key] = value
     value.each do |(k, v), icons_set|
-      icons_set[v] = {
+      icons_set[k] = {
         :english => icons_set[v][0],
         :japanese => icons_set[v][1]
       }
