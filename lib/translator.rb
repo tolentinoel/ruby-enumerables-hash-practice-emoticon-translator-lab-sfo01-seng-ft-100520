@@ -8,8 +8,8 @@ def load_library(file_path)
   final = Hash.new
 
   final.each_with_object({}) do |(key, value), emotion|
-  #   value.each do |english, japanese|
-  #     puts emotion[english][japanese]
+    emotion[key] = value
+    
 binding.pry
 end
   # final
