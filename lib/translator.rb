@@ -2,7 +2,7 @@
 require 'yaml'
 require 'pry'
 
-path = YAML::load('./lib/emoticons.yml')
+path = YAML.load('./lib/emoticons.yml')
 
 def load_library(path)
   file_path = YAML::load('./lib/emoticons.yml')
