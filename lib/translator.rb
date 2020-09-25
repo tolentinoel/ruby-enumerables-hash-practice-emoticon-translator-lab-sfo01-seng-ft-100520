@@ -3,7 +3,7 @@ require 'yaml'
 require 'pry'
 path = YAML::load('./lib/emoticons.yml')
 
-def load_library(file_path)
+def load_library(path)
   file_path = YAML::load('./lib/emoticons.yml')
 
   final = Hash.new
