@@ -12,9 +12,8 @@ def load_library(path)
       :english => "#{value[0]}",
       :japanese => "#{value[1]}"
     }
-    binding.pry
-
-  end
+    end
+  final_answer
 binding.pry
 end
 
