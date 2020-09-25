@@ -8,7 +8,7 @@ def load_library(file_path)
   final = Hash.new
 
   final.each_with_object({}) do |(key, value), answer|
-    puts answer
+    value.each
  
 end
 binding.pry
