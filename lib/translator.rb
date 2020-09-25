@@ -8,7 +8,8 @@ def load_library(path)
   final = Hash.new
   final.each_with_object({}) do |(key, value), emotion|
     emotion[key] = value
-    value = value[0]
+    
+    binding.pry
      
     end
   end
