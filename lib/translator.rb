@@ -11,7 +11,7 @@ def load_library(file_path)
     emotion[key] = value
     emotion[key] = {
       :english => value[0]
-      :japanse => value[1]
+      :japanese => value[1]
     }
 end
   final
