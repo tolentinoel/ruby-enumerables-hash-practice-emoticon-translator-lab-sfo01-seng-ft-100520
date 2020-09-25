@@ -10,8 +10,8 @@ path = YAML::load('./lib/emoticons.yml')
   final.each_with_object({}) do |(key, value), emotion|
    value.each do |emoji, icons|
   binding.pry
-  
-    end
+  end
+  end
     final
 end
 
