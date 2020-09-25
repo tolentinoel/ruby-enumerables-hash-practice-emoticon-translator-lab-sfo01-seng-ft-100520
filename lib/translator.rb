@@ -9,7 +9,7 @@ def load_library(file_path)
 
   final.each_with_object({}) do |(key, value), emotion|
     emotion[key] = value
-    
+    emotion[]
 binding.pry
 end
   # final
