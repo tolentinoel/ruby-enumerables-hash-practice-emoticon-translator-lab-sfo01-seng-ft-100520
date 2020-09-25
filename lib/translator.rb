@@ -8,12 +8,9 @@ def load_library(path)
   
   final.each_with_object({}) do |(key, value), emotion|
     binding.pry
-    emotion[key] = value
-    
-     
-  
+
   end
-    emotion
+
 end
 
 def get_japanese_emoticon
