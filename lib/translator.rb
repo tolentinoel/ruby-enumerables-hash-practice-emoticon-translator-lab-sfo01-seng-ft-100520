@@ -5,7 +5,7 @@ require 'pry'
 
 def load_library(path)
   path = YAML::load('./lib/emoticons.yml')
-  final = Hash.new
+  
   final.each_with_object({}) do |(key, value), emotion|
     binding.pry
     emotion[key] = value
