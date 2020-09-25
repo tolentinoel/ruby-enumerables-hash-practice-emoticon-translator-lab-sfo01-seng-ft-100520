@@ -7,10 +7,12 @@ path = YAML.load_file('./lib/emoticons.yml')
 def load_library(path)
   file_path = YAML.load_file('./lib/emoticons.yml')
   
-  final_answer = file_path.each_with_object({}) do |(key, value), answer|
+  hash = file_path.each_with_object({}) do |(key, value), answer|
     answer[key] = value
     end
-  final_answer
+    final_hash = Hash.new
+    final_hash.each do |v|
+  hash
 binding.pry
 end
 
