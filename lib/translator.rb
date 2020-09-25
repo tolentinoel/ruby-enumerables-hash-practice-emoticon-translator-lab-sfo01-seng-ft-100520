@@ -6,7 +6,7 @@ path = YAML::load('./lib/emoticons.yml')
 
 def load_library(path)
   
-  path.each_with_object({}) do |(key, value), emotion|
+  final_answer = path.each_with_object({}) do |(key, value), answer|
     binding.pry
 
   end
