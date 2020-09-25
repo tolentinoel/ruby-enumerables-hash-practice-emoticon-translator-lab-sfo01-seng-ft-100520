@@ -5,7 +5,7 @@ require 'pry'
 path = YAML.load('./lib/emoticons.yml')
 
 def load_library(path)
-  file_path = YAML::load('./lib/emoticons.yml')
+  file_path = YAML.load('./lib/emoticons.yml')
   final_answer = file_path.each_with_object({}) do |(key, value), answer|
     binding.pry
 
