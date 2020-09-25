@@ -2,11 +2,11 @@
 require 'yaml'
 require 'pry'
 
-
+path = YAML::load('./lib/emoticons.yml')
 
 def load_library(path)
-  path = YAML::load('./lib/emoticons.yml')
-  final_answer = path.each_with_object({}) do |(key, value), answer|
+  file_path = YAML::load('./lib/emoticons.yml')
+  final_answer = file_path.each_with_object({}) do |(key, value), answer|
     binding.pry
 
   end
