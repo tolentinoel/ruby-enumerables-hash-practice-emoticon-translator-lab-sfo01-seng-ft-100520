@@ -7,7 +7,7 @@ def load_library(path)
   final = path.each_with_object({}) do |(key, value), answer|
     
  
-
+end
   final
 end
 
