@@ -11,6 +11,7 @@ def load_library(file_path)
   #   value.each do |english, japanese|
   #     puts emotion[english][japanese]
 binding.pry
+end
   # final
 end
 
