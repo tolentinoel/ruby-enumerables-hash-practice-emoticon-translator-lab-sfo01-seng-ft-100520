@@ -8,8 +8,10 @@ def load_library(path)
   file_path = YAML.load_file('./lib/emoticons.yml')
   
   final_answer = file_path.each_with_object({}) do |(key, value), answer|
-    answer[key] = value.to_s
-   
+    answer[key] = value
+    value.each_with_object({}) do |(key, value), icons_set|
+      value
+    end
     end
   final_answer
 binding.pry
