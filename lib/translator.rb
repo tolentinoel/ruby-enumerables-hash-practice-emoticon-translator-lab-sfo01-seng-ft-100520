@@ -4,12 +4,13 @@ require 'pry'
 
 
 def load_library(path)
-path = YAML::load('./lib/emoticons.yml')
-
+  path = YAML::load('./lib/emoticons.yml')
+  final = Hash.new
   final.each_with_object({}) do |(key, value), emotion|
-  value = 
+    emotion[key] = value
+    value = value[0]
      
-   end
+    end
   end
     emotion
 end
