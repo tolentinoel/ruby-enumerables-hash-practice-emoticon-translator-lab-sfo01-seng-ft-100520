@@ -8,7 +8,6 @@ def load_library(path)
   file_path = YAML.load_file('./lib/emoticons.yml')
   
   hash = file_path.each_with_object({}) do |(key, value), answer|
-    
     answer[key] = {
        :english => value[0],
       :japanese => value[1]
