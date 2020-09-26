@@ -29,3 +29,4 @@ load_file(path).each do |key, value|
     puts "Sorry, emoticon not found."
   end
 end
+end
