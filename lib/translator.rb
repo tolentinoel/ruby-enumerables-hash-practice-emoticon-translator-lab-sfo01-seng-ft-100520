@@ -32,5 +32,5 @@ emoji = YAML.load_file('./lib/emoticons.yml')
       result = "Sorry, that emoticon was not found."
     end
   end
-  result
+  return result
 end
