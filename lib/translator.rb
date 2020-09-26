@@ -26,7 +26,8 @@ result = ""
     if emoticon == value[:japanese]
       result = key
     else
-      p "Sorry, that emoticon was not found."
+      apology = "Sorry, that emoticon was not found."
+      return apology
     end
   end
   result
