@@ -30,5 +30,5 @@ result = ""
       # binding.pry
     end
   end
-  result
+  puts result
 end
