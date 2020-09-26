@@ -28,7 +28,7 @@ puts "AAAAAAAAAAAAAAA"
 puts emoticon
 puts "DDDDDDDDDDDD"
 
-  load_library(path).each do |key, value, emoticon|
+  load_library(path).each do |key, value|
     puts "BBBBBBBBBB"
     puts value
     puts value[:japanese]
