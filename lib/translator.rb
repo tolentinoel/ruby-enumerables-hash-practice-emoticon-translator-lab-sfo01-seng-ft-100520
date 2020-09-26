@@ -28,6 +28,8 @@ load_library(path).each do |key, value|
   else
     puts "Sorry, emoticon not found."
   end
+  
   binding.pry
 end
+result
 end
