@@ -22,7 +22,7 @@ end
 
 def get_english_meaning(path, emoticon)
 result = ""
-  if load_file(emoticon)
+load_file(path)
     puts "Sorry, emoticon not found."
   end
 end
