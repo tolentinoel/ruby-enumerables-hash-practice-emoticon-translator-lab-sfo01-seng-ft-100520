@@ -24,7 +24,8 @@ def get_english_meaning(path, emoticon)
 result = ""
 load_file(path).each do |key, value|
   if emoticon == value[:english]
-    puts 
+    result = key
+  else
     puts "Sorry, emoticon not found."
   end
 end
