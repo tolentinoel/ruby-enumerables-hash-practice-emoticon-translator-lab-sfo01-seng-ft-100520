@@ -25,7 +25,7 @@ result = ""
   load_library(path).each do |key, value|
     if emoticon == value[:japanese]
       result = key
-    elsif == ""
+    elsif emoticon == ""
       result = "Sorry, that emoticon was not found"
     end
   end
