@@ -21,15 +21,15 @@ def get_japanese_emoticon
 end
 
 def get_english_meaning(path, emoticon)
-result = ""
+# result = ""
 emoji = YAML.load_file('./lib/emoticons.yml')
 
   load_library(path).each do |key, value|
 
     if emoticon == value[:japanese]
-      result = key
-    elsif result == ""
-      result = "Sorry, that emoticon was not found"
+      return key
+    else
+      return "Sorry, that emoticon was not found"
     end
   end
   result
