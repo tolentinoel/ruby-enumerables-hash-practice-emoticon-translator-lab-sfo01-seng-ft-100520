@@ -28,8 +28,8 @@ emoji = YAML.load_file('./lib/emoticons.yml')
 
     if emoji == value[:japanese]
       result = key
-    else
-      result = "Sorry, that emoticon was not found."
+    elsif result == ""
+      result "Sorry, that emoticon was not found."
     end
   end
   result
