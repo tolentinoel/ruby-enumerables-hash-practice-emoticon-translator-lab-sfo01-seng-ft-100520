@@ -26,12 +26,12 @@ result = ""
 
 puts "AAAAAAAAAAAAAAA"
 puts emoticon
-puts "AAAAAAAAAAAAAAA"
+puts "DDDDDDDDDDDD"
 
   load_library(path).each do |key, value|
-    puts "AAAAAAAAAAAAAAA"
+    puts "BBBBBBBBBB"
     puts emoticon
-    puts "AAAAAAAAAAAAAAA"
+    puts "CCCCCCCCC"
 
     if emoticon == value[:japanese]
       result = key
