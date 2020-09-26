@@ -22,7 +22,7 @@ end
 
 def get_english_meaning(path, emoticon)
 result = ""
-emoji = YAML.load_file('./lib/emoticons.yml')
+# emoji = YAML.load_file('./lib/emoticons.yml')
 
   load_library(path).each do |key, value|
 
@@ -32,5 +32,5 @@ emoji = YAML.load_file('./lib/emoticons.yml')
       result = "Sorry, that emoticon was not found."
     end
   end
-  return result
+  result
 end
