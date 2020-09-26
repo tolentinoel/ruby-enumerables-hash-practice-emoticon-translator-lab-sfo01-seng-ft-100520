@@ -24,7 +24,14 @@ def get_english_meaning(path, emoticon)
 result = ""
 # emoji = YAML.load_file('./lib/emoticons.yml')
 
+puts "AAAAAAAAAAAAAAA"
+puts emoticon
+puts "AAAAAAAAAAAAAAA"
+
   load_library(path).each do |key, value|
+    puts "AAAAAAAAAAAAAAA"
+    puts emoticon
+    puts "AAAAAAAAAAAAAAA"
 
     if emoticon == value[:japanese]
       result = key
@@ -33,6 +40,5 @@ result = ""
     end
   end
   
-  puts result
   result
 end
