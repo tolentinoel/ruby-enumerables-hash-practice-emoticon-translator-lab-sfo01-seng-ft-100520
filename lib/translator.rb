@@ -26,8 +26,7 @@ result = ""
     if emoticon == value[:japanese]
       result = key
     else
-      result + "Sorry, that emoticon was not found."
-      # binding.pry
+      result = "Sorry, that emoticon was not found."
     end
   end
   result
