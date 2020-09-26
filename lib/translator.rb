@@ -27,7 +27,7 @@ result = ""
       result = key
     else
       apology = "Sorry, that emoticon was not found."
-      return apology
+      result = apology
     end
   end
   result
