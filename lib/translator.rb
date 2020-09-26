@@ -25,7 +25,7 @@ result = ""
 load_file(path).each do |key, value|
   if emoticon == value[:english]
     result = key
-  else
+  elsif
     puts "Sorry, emoticon not found."
   end
 end
