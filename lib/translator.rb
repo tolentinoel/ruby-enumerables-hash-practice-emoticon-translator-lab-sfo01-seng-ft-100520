@@ -22,7 +22,7 @@ end
 
 def get_english_meaning(path, emoticon)
 result = ""
-load_file(path).each do |key, value|
+load_library(path).each do |key, value|
   if emoticon == value[:english]
     result = key
   elsif
