@@ -32,5 +32,7 @@ result = ""
       result = "Sorry, that emoticon was not found."
     end
   end
+  
+  puts result
   result
 end
