@@ -30,7 +30,7 @@ puts "DDDDDDDDDDDD"
 
   load_library(path).each do |key, value|
     puts "BBBBBBBBBB"
-    puts emoticon
+    puts value[:japanese]
     puts "CCCCCCCCC"
 
     if emoticon == value[:japanese]
