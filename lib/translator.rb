@@ -27,6 +27,7 @@ result = ""
       result = key
     else
       p "Sorry, that emoticon was not found."
+      binding.pry
     end
   end
   result
