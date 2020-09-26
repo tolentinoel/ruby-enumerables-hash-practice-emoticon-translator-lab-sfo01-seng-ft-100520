@@ -23,7 +23,7 @@ end
 def get_english_meaning(path, emoticon)
 result = ""
 load_library(path).each do |key, value|
-  if emoticon == value[:english]
+  if emoticon === value[:english]
     result = key
     puts result
   else
