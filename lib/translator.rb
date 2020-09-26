@@ -28,7 +28,6 @@ result = ""
     else
       result = "Sorry, emoticon not found."
     end
-    result
   end
-  
+  result
 end
