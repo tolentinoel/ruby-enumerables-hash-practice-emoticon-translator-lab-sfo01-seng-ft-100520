@@ -29,5 +29,5 @@ result = ""
       result = "Sorry, that emoticon was not found"
     end
   end
-  english_meaning
+  result
 end
